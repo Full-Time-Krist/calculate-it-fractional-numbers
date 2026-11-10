@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <GameRoot Condition="'$(GameRoot)' == ''">C:/Program Files (x86)/Steam/steamapps/common/Calculate It</GameRoot>
+    <GameManaged Condition="'$(GameManaged)' == ''">$(GameRoot)/CalculateIt_Data/Managed</GameManaged>
+    <BepInExCore Condition="'$(BepInExCore)' == ''">$(GameRoot)/BepInEx/core</BepInExCore>
+    <ModLoaderAssembly Condition="'$(ModLoaderAssembly)' == ''">$(GameRoot)/BepInEx/plugins/CalculateIt.ModLoader/CalculateIt.ModLoader.dll</ModLoaderAssembly>
+  </PropertyGroup>
+</Project>

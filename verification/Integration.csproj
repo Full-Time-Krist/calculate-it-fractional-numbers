@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>netstandard2.1</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CalculateIt.ModLoader" HintPath="$(ModLoaderAssembly)" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$(GameManaged)/Unity.TextMeshPro.dll" />
+    <Reference Include="CalculateIt.FractionalNumbers" HintPath="../bin/Release/netstandard2.1/CalculateIt.FractionalNumbers.dll" />
+    <Reference Include="BepInEx" HintPath="$(BepInExCore)/BepInEx.dll" />
+    <Reference Include="0Harmony" HintPath="$(BepInExCore)/0Harmony.dll" />
+    <Reference Include="Assembly-CSharp" HintPath="$(GameManaged)/Assembly-CSharp.dll" />
+    <Reference Include="UnityEngine" HintPath="$(GameManaged)/UnityEngine.dll" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(GameManaged)/UnityEngine.CoreModule.dll" />
+    <Reference Include="UnityEngine.UI" HintPath="$(GameManaged)/UnityEngine.UI.dll" />
+    <Reference Include="UnityEngine.UIModule" HintPath="$(GameManaged)/UnityEngine.UIModule.dll" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(GameManaged)/UnityEngine.TextRenderingModule.dll" />
+    <Reference Include="UnityEngine.AnimationModule" HintPath="$(GameManaged)/UnityEngine.AnimationModule.dll" />
+    <Reference Include="UnityEngine.ScreenCaptureModule" HintPath="$(GameManaged)/UnityEngine.ScreenCaptureModule.dll" />
+  </ItemGroup>
+</Project>
